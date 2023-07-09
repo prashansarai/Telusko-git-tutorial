@@ -19,3 +19,13 @@ items[3].style.backgroundColor = '#ffff00';
 for(var i =0; i<items.length; i++){
     items[i].style.fontWeight = 'bold';
 }
+var header = document.querySelector('main-header');
+header.style.borderBottom='solid 4px #cccccc'
+var input = document.querySelector('input');
+input.value = 'Hello World'
+var submit = document.querySelector("input[type="submit"]");
+submit.value = "SEND"
+// var item = document.querySelector('.list-group-item');
+// items.style.color = "red";
+
+
